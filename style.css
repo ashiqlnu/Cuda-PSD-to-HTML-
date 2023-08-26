@@ -1,0 +1,244 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+	letter-spacing: 1.2px;
+}
+h1,
+h4 {
+	font-weight: 700;
+}
+
+
+/***********
+		header area
+				*************/
+
+.header-area {
+	background-color: #86509C;
+}		
+.header-area .navbar {
+	background-color: #86509C;
+}	
+.header-area .navbar .container {
+	width: 80%;
+}
+.header-area .navbar .active {
+	color: #FFFFFF;
+	background-color: #643a79;
+}
+.header-area .navbar ul li a:hover  {
+	background-color: #643a79;
+	border-radius: 1px;
+}	
+.header-area .header-text .btn {
+	background-color: #eb7d4b;
+	border: 2px solid #eb7d4b;
+	padding: 17px 65px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.header-area .header-text .btn:hover {
+	background-color:  #86509C;
+	border: 2px solid #eb7d4b;
+	padding: 17px 65px;
+}
+
+
+
+
+/***************
+			SERVICE AREA
+					****************/
+
+.services-area {
+	background-color: #17c2a4;
+}		
+.services-area hr {
+	width: 8%;
+	border: 2px solid #14a58c;
+}	
+.services-area .details-area p {
+	color: #f0fbf9;
+	font-size: 14px;
+}		
+
+
+
+/*************
+			TEAM AREA
+				*************/
+
+.team-area {
+	background-color: #e7f1f8;
+	color: #3c4761;
+}
+.team-area hr {
+	width: 8%;
+	border: 2px solid #c8d9e5;
+}
+.bold-p {
+	font-weight: 600;
+}	
+.team-area img {
+	width: 200px;
+	height: auto;
+	border-radius: 50%;
+}
+.team-area .col-lg-3 a i {
+	font-size: 28px;
+	color: #bdd1df;
+}
+.team-area .col-lg-3 a:hover i {
+	color: #3c4761;
+}
+
+
+
+
+/*************
+			SKILL AREA
+					***************/
+
+
+.skill-area {
+	background-color: #FFFFFF;
+	color: #3c4761;
+}
+.skill-area hr {
+	width: 8%;
+	border: 2px solid #dfe8ed;
+}
+
+
+/**************
+			PROTFOLIO AREA
+					 ****************/
+
+.portfolio-area {
+	background-color: #FFDC98;
+}
+.portfolio-area hr {
+	width: 8%;
+	border: 2px solid #e5c37f;	
+}
+.portfolio-area .portfolio-btn .btn-active {
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 3px 15px;
+	font-size: 17px;
+}
+.portfolio-area .portfolio-btn a {
+	background-color: #ebc985;
+	border: 1px solid #ebc985;
+	padding: 3px 15px;
+	font-size: 17px;
+}
+.portfolio-area .portfolio-btn a:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.portfolio-area .projects-btn {
+	background-color: #17c2a4;
+	border: 2px solid #17c2a4;
+	padding: 17px 65px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+.portfolio-area .projects-btn:hover {
+	background-color:  #FFDC98;
+	border: 2px solid #17c2a4;
+	padding: 17px 65px;
+	color: #000000;
+}
+
+
+
+/*************
+			COMMENT AREA
+					*****************/
+
+.comment-area {
+	background-color: #d74680;
+}	
+.comment-area hr {
+	width: 8%;
+	border: 2px solid #b73c6d;	
+}	
+.comment-area .row .col-lg-2 img {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+}	
+.comment-area .row p i {
+	font-size: 18px;
+}		
+.comment-area .row .brown-p {
+	color: #fac996;
+}
+
+
+
+/**************
+			SUBSCRIBE AREA
+					***************/
+.subscribe-area {
+	background-color: #3c5499;
+}
+.subscribe-area hr {
+	width: 8%;
+	border: 2px solid #273a71;	
+}
+.subscribe-area .form-area .container {
+	width: 70%;
+}
+.subscribe-area .form-area .form-inline .form-control {
+	padding: 24px 90px;
+}
+.subscribe-area .form-area .form-group .form-control {
+	height: 150px;
+}
+.subscribe-area .form-area .blue-bgc {
+	background-color: #273a71;
+	color: #FFFFFF;
+	border: 1px solid #ced4da00;
+}
+.subscribe-area .subscribe-btn {
+	background-color: #30bae7;
+	border: 2px solid #30bae7;
+	padding: 17px 65px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+.subscribe-area .subscribe-btn:hover {
+	background-color:  #FFFFFF;
+	border: 2px solid #30bae7;
+	padding: 17px 65px;
+	color: #30bae7;
+}
+
+
+
+/***************
+			FOOTER AREA
+					****************/
+
+
+.footer-area {
+	background-color: #344b8e;
+}
+.footer-area ul li a {
+	color: #FFFFFF;
+	font-size: 21px;
+	text-decoration: none;
+}
+.footer-area ul li .active-li {
+	color: #30bae7;
+}
+.footer-area ul li a:hover {
+	color: #30bae7;
+}
